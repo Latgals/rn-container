@@ -7,11 +7,11 @@ You can set container's padding, background color, content alignment, control th
 
 ## Simple usage:
 
-`<Container>
+`&lt;Container>
 
   //  {...Content here}
   
-</Container>`
+&lt;/Container>`
 
 ## Default params
 
