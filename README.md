@@ -7,15 +7,15 @@ You can set container's padding, background color, content alignment, control th
 
 ## Simple usage:
 
-<Container>
+`<Container>
   //  {...Content here}
-</Container>
+</Container>`
 
 ## Default params
 
 In order not to set container properties for each screen, you can set the default property values yourself in the `container.js` file and then change only the necessary properties for the container that should be different from the others.
 
-container.js
+`container.js`
 
 const Container = (props) => {
   const {
