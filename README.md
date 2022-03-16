@@ -8,7 +8,9 @@ You can set container's padding, background color, content alignment, control th
 ## Simple usage:
 
 `<Container>
+
   //  {...Content here}
+  
 </Container>`
 
 ## Default params
@@ -17,23 +19,35 @@ In order not to set container properties for each screen, you can set the defaul
 
 `container.js`
 
-const Container = (props) => {
+`const Container = (props) => {
+
   const {
+  
     padding = 8,
+    
     background = '#efefef',
+    
     layout = 'default',
+    
     statusbar = 'dark-content',
+    
   } = props
+  
   
   ...
   
+  
 }
-export default Container;
+
+export default Container;`
 
 ## Props
 
 padding: [Number],
+
 background: [Color Style String],
+
 layout: [String] - Available values: 'top-left' or 'default', 'top-center', 'center' (positions content in the center vertically and horizontally), 'center-left'
+
 statusbar: [String] - Available values: 'dark-content', 'light-content' or 'hidden' (hides the statusbar on the screen) 
 
