@@ -51,14 +51,14 @@ In order not to set container properties for each screen, you can set the defaul
 
 For example:
 
->     <Container layout='center' background='#fff' statusbar='hidden'>
+>     <Container layout='center' padding={21} background='#fff' statusbar='hidden'>
 >       ...  
 >     </Container>
 
                
 ## Available Props
 
->`padding:` [Number],
+>`padding:` {[Number]},
 >
 >`background:` [Color Style String],
 >
@@ -66,7 +66,7 @@ For example:
 >
 >`statusbar:` [String] - Available values: `'dark-content'`, `'light-content'` or `'hidden'` (hides the statusbar on the screen) 
 
-See the sample in Default params paragraph
+See the samples in **'Usage with custom settings'** params paragraph and [try the component at Expo Snack](https://snack.expo.dev/@latglas/rn-container)
 
 #### * * *
 
